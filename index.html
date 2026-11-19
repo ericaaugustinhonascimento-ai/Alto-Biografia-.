@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha História | Érica</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #f5eadb;
+            color: #493326;
+        }
+
+        header {
+            background: #50382b;
+            color: #f8e8d2;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            letter-spacing: 5px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        nav {
+            background: #76533e;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #f0c9a1;
+        }
+
+        .banner {
+            height: 450px;
+            background:
+                linear-gradient(#0005, #0005),
+                url("https://images.unsplash.com/photo-1534307670795-4c4f6e1f8a7c?auto=format&fit=crop&w=1600&q=80");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .banner h2 {
+            font-size: 42px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        section {
+            padding: 65px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #79543c;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.8;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .foto {
+            width: 100%;
+            max-width: 650px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin: 25px auto;
+            display: block;
+        }
+
+        .fundo {
+            background-color: #e8d5bf;
+        }
+
+        .card {
+            background: #fff9f1;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px auto;
+            max-width: 750px;
+            box-shadow: 0 4px 12px #0002;
+        }
+
+        footer {
+            background: #50382b;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            line-height: 1.8;
+        }
+
+        @media(max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            .banner h2 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+
+            section {
+                padding: 45px 7%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ÉRICA 🤎</h1>
+    <p>Minha história, meus sonhos e minhas paixões.</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre mim</a>
+    <a href="#paixoes">Paixões</a>
+    <a href="#familia">Família</a>
+    <a href="#gostos">Meus gostos</a>
+</nav>
+
+<div class="banner" id="inicio">
+    <h2>Seja bem-vindo ao meu mundo! 🐎</h2>
+</div>
+
+<section id="sobre">
+    <h2>🌷 Quem sou eu?</h2>
+
+    <div class="card">
+        <p>
+            Oi! Meu nome é Érica, tenho 16 anos e estudo
+            no Colégio José Siqueira Rosas, onde estou
+            cursando o 1º ano do Ensino Médio.
+
+            Sou uma menina que gosta de aproveitar a vida,
+            valoriza os momentos especiais e tem um carinho
+            enorme pelos animais.
+            
+            Atualmente trabalho como babá e procuro
+            conciliar meus estudos com minhas responsabilidades.
+        </p>
+    </div>
+</section>
+
+<section class="fundo" id="paixoes">
+    <h2>🐎 Meu amor pelos animais</h2>
+
+    <img class="foto"
+    src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=1000&q=80"
+    alt="Cavalos no campo">
+
+    <p>
+        Uma das coisas que mais amo na vida são os animais,
+        principalmente os cavalos. Tenho uma paixão enorme
+        por eles e por tudo que envolve o mundo country.
+    </p>
+</section>
+
+<section id="familia">
+    <h2>🏡 Meu lugar especial</h2>
+
+    <img class="foto"
+    src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=80"
+    alt="Paisagem do campo">
+
+    <p>
+        Moro na cidade, mas sempre que posso vou para o
+        sítio passar um tempo com meus avós.
+
+        Esses momentos são muito especiais para mim.
+        Gosto da tranquilidade do campo, da natureza
+        e de estar perto das pessoas que amo.
+    </p>
+</section>
+
+<section class="fundo" id="gostos">
+    <h2>🤠 Meu estilo e meus gostos</h2>
+
+    <div class="card">
+        <h3>👢 Estilo country</h3>
+        <p>
+            Amo usar roupas country! Gosto muito desse estilo
+            e de tudo que representa a vida no campo.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🎶 Música</h3>
+        <p>
+            Amo ouvir músicas, principalmente as antigas
+            dos Miroshmas.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🖤 Minha série favorita</h3>
+        <p>
+            Sou apaixonada por The Vampire Diaries (TVD).
+            Adoro assistir à série e acompanhar suas histórias.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>❤️ Um pouco de mim</h2>
+
+    <p>
+        Sou uma menina que ama os animais, valoriza a família,
+        gosta da simplicidade do campo e tem orgulho do seu
+        estilo country.
+
+        Essa é um pouquinho da minha história!
+    </p>
+</section>
+
+<footer>
+    <h2>Érica 🤎</h2>
+    <p>Minha essência, minha história e meu jeito de ser.</p>
+    <p>Feito com carinho! 🐎🌻</p>
+    <p>© 2026 - Minha Autobiografia</p>
+</footer>
+
+</body>
+</html>
